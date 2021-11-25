@@ -77,7 +77,7 @@ plot(network,
      vertex.label.color=c("white"),
      vertex.label.font=2,
      edge.width=E(network)$RatingSize,
-     vertex.label.cex=0.75,
+     vertex.label.cex=1,
      vertex.label.dist=0.75,
      vertex.label.degree=lab.locs,
      layout=l)
@@ -97,7 +97,7 @@ legend("bottomleft",
        text.col = "white")
 
 legend("bottomright", 
-       legend = "Data: datardis pckg.\n Viz: @BraeuNERD \n #TidyTuesday",
+       legend = "Data: datardis \n Viz: @BraeuNERD \n #TidyTuesday",
        bty="n",
        text.col = "white")
 
