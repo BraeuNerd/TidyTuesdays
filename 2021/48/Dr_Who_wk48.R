@@ -1,8 +1,6 @@
 library(tidyverse)
 library(datardis)
 library(igraph)
-#library(ggraph)
-#library(scales)
 
 #change colnames in writers & directors df's for merging for nodes (useful later)
 writers$code <- "w" #just to check
