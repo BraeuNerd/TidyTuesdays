@@ -172,12 +172,12 @@ ggplot(worldmap) +
   scale_fill_manual(values = c(male = "#893168", female = "#efcefa", `NA` = "#809848")) +
   labs(title = "*Who are we reading?*",
        subtitle = "According to what I have logged in my **Goodreads** Shelf, I've read **112 books**,   \n  by authors from **19 countries** and mostly **(77.68%)** male.",
-       caption = "(Gender according to the author's Wikipedia site; 1 NA = anonymous)   \n    
+       caption = "(Gender according to the author's Wikipedia site. 1 NA = anonymous writer)   \n    
        Data: mostly Goodreads |  Viz: @braeuNERD   |   #TidyTuesday") +
   theme_minimal() +
   theme(plot.title = element_markdown(color = "#e9e5cd", size = 30, hjust = 0.05),
         plot.subtitle = element_markdown(color = "#e9e5cd", size = 14, hjust = 0.1),
-        plot.caption = element_text(hjust = 0.5, color = "#e9e5cd", size = 12),
+        plot.caption = element_text(hjust = 0.5, color = "#e9e5cd", size = 12, face = "bold"),
         legend.position = "bottom",
         legend.key.width = unit(1, "cm"),
         plot.background = element_rect(fill = "#4f759e"),
