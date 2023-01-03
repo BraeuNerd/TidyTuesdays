@@ -82,6 +82,7 @@ read$gender <- c('male', 'male', 'male', 'male', 'female',
 'male', 'male', 'male', 'male', 'male', 'male')
 
 glimpse(read) #check data types
+
 #fix data types
 read$birthplace <- as.factor(read$birthplace)
 read$gender <- as.factor(read$gender)
